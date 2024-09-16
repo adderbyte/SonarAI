@@ -35,7 +35,7 @@ If you need the contact form to work, you also need to create an EmailJS account
 #### 🛎️🛎️  Alternative template [V2](https://github.com/issaafalkattan/react-landing-page-template-2021)   
 
 
-#### <a href="https://react-landing-page-template-93ne.vercel.app/">Live demo for alternative Landing page.</a> 
+#### <a href="https://react-landing-page-template-93ne.vercel.app/">Live demo for alternative tempplate.</a> 
 
 
 ---------------------------------
