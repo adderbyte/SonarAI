@@ -2,32 +2,38 @@ import React from "react";
 
 export const Navigation = (props) => {
   return (
-    <nav id="menu" className="navbar navbar-expand-lg navbar-light fixed-top" style={{ backgroundColor: "#343a40", padding: "10px 20px" }}>
+    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#page-top" style={{ color: "#fff", fontSize: "1.5rem", fontWeight: "700" }}>
-          Sonar Education
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          style={{ border: "none" }}
+        <div className="navbar-header">
+          <button
+            type="button"
+            className="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+          >
+            {" "}
+            <span className="sr-only">Toggle navigation</span>{" "}
+            <span className="icon-bar"></span>{" "}
+            <span className="icon-bar"></span>{" "}
+            <span className="icon-bar"></span>{" "}
+          </button>
+          <a className="navbar-brand page-scroll" href="#page-top">
+            Sonar Education 
+          </a>{" "}
+        </div>
+
+        <div
+          className="collapse navbar-collapse"
+          id="bs-example-navbar-collapse-1"
         >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarResponsive">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <a className="nav-link" href="#features" style={{ color: "#fff", fontSize: "1.1rem", padding: "10px 15px" }}>
+          <ul className="nav navbar-nav navbar-right">
+            <li>
+              <a href="#features" className="page-scroll">
                 Features
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contact" style={{ color: "#fff", fontSize: "1.1rem", padding: "10px 15px" }}>
+            <li>
+              <a href="#contact" className="page-scroll">
                 Contact
               </a>
             </li>
